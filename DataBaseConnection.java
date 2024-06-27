@@ -21,9 +21,7 @@ public class DataBaseConnection {
 				String gmail=rs.getString(3);
 				System.out.printf("Id:%d%n Name:%s%n Gmail: %s%n Dept: %s%n:",id,name,gmail);
 				
-				// println
-				// printf, print -> System.out.print();
-				// System -> class -> java.util.S
+				
 			}
 			rs.close();
 			stmt.close();
